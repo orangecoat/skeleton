@@ -1,0 +1,22 @@
+# Skeleton
+
+OrangeCoat's Drupal starter theme
+
+## Things you should know if you plan on using this theme
+
+1. It is, by default, dependent on
+   [Asarko](http://github.com/rickharris/asarko), which in turn is dependent on
+   [Boron](http://drupal.org/project/boron).  However, if that's not your cup
+   of tea, you can just remote the `base theme` declaration in `skeleton.info`.
+2. It is configured such that it expects you to write your CSS with
+   [Compass](http://compass-style.org) and your Javascript in
+   [Coffeescript](http://jashkenas.github.com/coffee-script/).
+3. All templates, whether custom or override, are meant to go in `templates`.
+   Likewise, all third-party code, plugins or otherwise, should go in `vendor`.
+4. This theme is one of three tools that OrangeCoat uses to break ground on new
+   Drupal projects, and is actually the last step in the process. Please see
+   [step 1: the shovel](http://github.com/orangecoat/shovel) and [step 2: the
+   dirt](http://github.com/orangecoat/dirt).
+5. Rename this theme. No one wants a theme named skeleton. And if they do, be
+   wary of having them as clients. Oh, and *definitely* replace the logo,
+   screenshot, and favicon.
